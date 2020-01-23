@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Monoton', cursive;
+    margin: 20px 40px;
+    background: url("../img/yum.gif");
+    background-size:cover;
+    overflow: hidden;
+    height: 50%;
+}
+
+#mainbox{
+    font-size: 64px;
+    cursor: pointer;
+    color: yellow;
+}
+.side-menu{
+    font-family: 'Monoton', cursive;
+    position:absolute ;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 450px;
+    background-color: black;
+    z-index: 1;
+    padding-top: 100px;
+    display: none;
+    opacity: 90%;
+}
+
+
+.side-menu a{
+    font-family: 'Monoton', cursive;
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 35px;
+    color:hsla(356,86%,55%,1);
+    display: block;
+}
+
+.side-menu a:hover{
+    color:white;
+}
+.side-menu .closebutton{
+    position: absolute;
+    font-family: 'Monoton', cursive;
+    top: 0px;
+    right: 25px;
+    font-size: 46px;
+    margin-left: 32px;
+}
+ 
