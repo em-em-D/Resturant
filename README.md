@@ -1,9 +1,9 @@
 # Resturant
-Technologies
-WEBPACK
-JavaScript
-HTML
-CSS
+# Technologies
+WEBPACK,
+JavaScript,
+HTML,
+CSS,
 
 # Functionalities
 Can be found on: ( Restaurant Project )
