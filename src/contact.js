@@ -38,7 +38,7 @@ function contact(){
     </select></li>
 
     <li><label for="subject">Note</label><br>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px "></textarea></li>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px "></textarea></li>
 
   <li><input type="submit" value="Submit"></li>
 
