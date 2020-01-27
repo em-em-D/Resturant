@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-
   module: {
     rules: [
       {
@@ -38,15 +38,6 @@ module.exports = {
         use: [
           'file-loader',
         ],
-      },
-      {
-        test: /\.(html)$/,
-        use: {
-          loader: 'html-loader',
-          options: {
-            attrs: [':data-src'],
-          },
-        },
       },
     ],
   },

@@ -1,0 +1,140 @@
+body{
+    font-family: 'Monoton', cursive;
+    margin: 20px 40px;
+    background: url("../img/yum.gif");
+    background-size:cover;
+    overflow: hidden;
+    height: 50%;
+}
+.menu-img{
+    margin-right:0px;
+    float:right;
+}
+.button{
+    background-color: red;
+    color: white;
+}
+.abt-img{
+    float: right;
+    margin-left: 0px;
+}
+
+#reservation{
+    margin-right:170px;
+    width: 850px;
+    height: 900px;
+    float: right;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 20px;
+    opacity:65%;
+}
+#contact{
+    margin-right:170px;
+    width: 850px;
+    height: 900px;
+    float: right;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 20px;
+    opacity:65%;
+}
+
+input[type=text], select {
+    font-size: 30px;
+    padding: 12px 20px;
+    margin: 28px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  ul.ba {
+    list-style-type: none;
+}
+input[type=date]{
+    padding: 12px 20px;
+    margin: 28px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 34px 55px;
+    font-size: 30px;
+    margin: 28px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: yellow;
+  }
+
+
+
+.about{
+  font-size: 35px;
+  float: right;
+  margin-right: 0px;
+  color: red;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 20s; 
+  animation-name: example;
+  animation-duration: 10s;
+}
+@keyframes example {
+    from {color: red;}
+    to {color: purple;}
+  }
+.menu-items{
+    float: right;
+    margin-right: 250px;
+    font-size:55px;
+    color:red;
+}
+#mainbox{
+    font-size: 64px;
+    cursor: pointer;
+    color: yellow;
+}
+.side-menu{
+    font-family: 'Monoton', cursive;
+    position:absolute ;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 450px;
+    background-color: black;
+    z-index: 1;
+    padding-top: 100px;
+    display: none;
+    opacity: 90%;
+}
+
+
+.side-menu a{
+    font-family: 'Monoton', cursive;
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 35px;
+    color:hsla(356,86%,55%,1);
+    display: block;
+}
+
+.side-menu a:hover{
+    color:white;
+}
+.side-menu .closebutton{
+    position: absolute;
+    font-family: 'Monoton', cursive;
+    top: 0px;
+    right: 25px;
+    font-size: 46px;
+    margin-left: 32px;
+}
+ 
