@@ -3,6 +3,7 @@ import main from './menu';
 import reserve from './body';
 import aboutUs from './about';
 import contactUs from './contact';
+import home from './home';
 
 function listner(){
     document.querySelector("#mainbox").addEventListener("click", e => {
@@ -32,7 +33,7 @@ function closeFunction(){
     document.getElementById("mainbox").innerHTML="&#9776; Hope you where satisfied"
 }
 function navbar(){
-    let nav = document.querySelector('#content');
+    let nav = document.querySelector('.nav');
     nav.innerHTML = `
            <div id="mainbox"> &#9776; Check out our menu</div>
             <div id="menu" class="side-menu" >
@@ -56,6 +57,11 @@ function display(){
     reserve();
     aboutUs();
     contactUs();
+    home();
 }
 
 display();
+
+export default function navigate(){
+    display();
+}
